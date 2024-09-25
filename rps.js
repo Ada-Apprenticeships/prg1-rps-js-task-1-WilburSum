@@ -1,9 +1,3 @@
-function rockPaperScissors(player1, player2) {
-
-  
-   
-}
-
 
 
 
