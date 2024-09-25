@@ -1,6 +1,6 @@
 function rockPaperScissors(player1, player2) {
   const winCondition = {
-    rock: ["scissors", "lizards"],
+    rock: ["scissors", "lizard"],
     paper: ["rock", "spock"],
     scissors: ["paper", "lizard"],
     lizard: ["spock", "paper"],
