@@ -4,8 +4,8 @@ function rockPaperScissors(player1, player2) {
     paper: ["rock", "spock"],
     scissors: ["paper", "lizard"],
     lizard: ["spock", "paper"],
-    spock: ["scissors", "rock"]
-  }
+    spock: ["scissors", "rock"],
+  };
   if (player1 === player2) {
     return "draw";
   } else if (winCondition[player1].includes(player2)) {
@@ -13,9 +13,9 @@ function rockPaperScissors(player1, player2) {
   } else {
     return "player2";
   }
-} 
+}
 
 // Leave this code here for the automated tests
 module.exports = {
   rockPaperScissors,
-}
+};
