@@ -1,8 +1,3 @@
-// player1 is computer
-// player2 is user
-
-const readline = require("readline-sync");
-
 function rockPaperScissors(player1, player2) {
   if (player1 === player2) {
     return "draw";
@@ -28,9 +23,9 @@ function randomChoice() {
   }
 }
 
-const userChoice = readline.question("What would you like to choose? rock, paper or scissors?\n");
-const compChoice = randomChoice();
-console.log(rockPaperScissors(compChoice, userChoice));
+const player1Choice = randomChoice();
+const player2Choice = randomChoice();
+console.log(rockPaperScissors(player1Choice, player2Choice));
 
 // Leave this code here for the automated tests
 module.exports = {
